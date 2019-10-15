@@ -1,0 +1,13 @@
+site:
+  datasource_driver: com.mysql.cj.jdbc.Driver
+  datasource_url: jdbc:mysql://111.231.191.63:3306/pybbs?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+  datasource_username: root
+  datasource_password: 123abcABC
+
+# 想看mybatis执行的sql的时候，去掉下面这段的注释
+#logging:
+#  level:
+#    co:
+#      yiiu:
+#        pybbs:
+#          mapper: debug
